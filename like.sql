@@ -1,4 +1,12 @@
 -- LIKE OPERATOR--
+It is used to search for a specified pattern in a column.
+It is used to perform pattern matching or wildcard searches in SQL queries.
+
+Syntax: select*/column_name
+from table_name
+where column_name like pattern;
+
+
 SQL> select *
   2  from emp;
 

@@ -112,6 +112,6 @@ SQL> select max(hiredate),min(hiredate)
   2  from emp
   3  where mgr not in (7698,7566);
 
-MAX(HIRED MIN(HIRED
+MAX(HIREDATE) MIN(HIREDATE)
 --------- ---------
 23-MAY-87 17-DEC-80

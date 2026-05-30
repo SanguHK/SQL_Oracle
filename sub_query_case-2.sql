@@ -56,18 +56,6 @@ SQL> select *
         30 SALES          CHICAGO
         40 OPERATIONS     BOSTON
 
-SQL> select enam
-  2  e
-  3  from emp
-  4  where deptno in (select deptno
-  5                     from dept
-  6                     where dname='ACCOUNTING');
-select enam
-       *
-ERROR at line 1:
-ORA-00904: "ENAM": invalid identifier
-
-
 SQL> select ename
   2  from emp
   3  where deptno in (select deptno
@@ -143,13 +131,6 @@ ACCOUNTING     NEW YORK
 RESEARCH       DALLAS
 SALES          CHICAGO
 
-SQL> select *
-  2  from dept
-  3  where deptno in (select deptno
-  4                     from emp
-  5                     where ename like '%A');
-
-no rows selected
 
 SQL> select *
   2  from dept
@@ -163,4 +144,3 @@ SQL> select *
         20 RESEARCH       DALLAS
         30 SALES          CHICAGO
 
-SQL>

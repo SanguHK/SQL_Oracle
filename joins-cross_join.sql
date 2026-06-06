@@ -19,7 +19,7 @@ TNAME                          TABTYPE  CLUSTERID
 ------------------------------ ------- ----------
 BONUS                          TABLE
 DEPT                           TABLE
-EMP                            TABLE
+EMP                            TABLEi
 SALGRADE                       TABLE
 
 SQL> set lines 1000 pages 1000
